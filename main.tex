@@ -50,15 +50,17 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
+\usepackage{indentfirst}
+
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
 
 \geometry{
 	paper=a4paper, % Change to letterpaper for US letter
-	inner=2.5cm, % Inner margin
-	outer=3.8cm, % Outer margin
-	bindingoffset=.5cm, % Binding offset
+	left=3cm, % Inner margin
+	right=3cm, % Outer margin
+	% bindingoffset=1cm, % Binding offset
 	top=1.5cm, % Top margin
 	bottom=1.5cm, % Bottom margin
 	%showframe, % Uncomment to show how the type block is set on the page
@@ -68,7 +70,8 @@ headsepline, % Uncomment to get a line under the header
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{To What Extent Do MFCCs Perform Better Than Other Speech Feature Extraction Algorithms in Speech Recognition CNNs} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Investigating the Impact of Various Feature Extraction Algorithms on Performance in Automatic Speech Recognition Systems\newline \\
+	\large To What Extent Do Mel-Frequency Cepstrum Coefficients Outperform Other Speech Feature Extraction Algorithms in Speech Recognition Neural Networks?}
 \supervisor{Courtney \textsc{Edwards}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \degree{International Baccalaureate Programme} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 \author{Daniel \textsc{Lu}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
@@ -134,26 +137,20 @@ headsepline, % Uncomment to get a line under the header
 
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
-\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
-\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+\textbf{ASR} & \textbf{A}utomatic \textbf{S}peech \textbf{R}ecognition\\
+\textbf{LPC} & \textbf{L}inear  textbf{P}redictive \textbf{C}oding\\
+\textbf{DFT} & \textbf{D}iscrete \textbf{F}ourier \textbf{T}ransform\\
+\textbf{FFT} & \textbf{F}ast \textbf{F}ourier \textbf{T}ransform\\
+\textbf{IFT} & \textbf{I}nverse \textbf{F}ourier \textbf{T}ransform\\
+\textbf{HMM} & \textbf{H}idden \textbf{M}arkov \textbf{M}odel\\
+\textbf{CTC} & \textbf{C}onnectionist \textbf{T}emporal\textbf{C}lassification\\
+\textbf{DDC} & \textbf{D}irected \textbf{D}ialogue \textbf{C}onversations\\
+\textbf{NLC} & \textbf{N}atural \textbf{L}anguage \textbf{C}onversations\\
+\textbf{NLP} & \textbf{N}atural \textbf{L}anguage \textbf{P}rocessing\\
+\textbf{DWT} & \textbf{D}iscrete \textbf{W}avelet \textbf{T}ransform\\
+\textbf{PLP} & \textbf{P}erceptual \textbf{L}inear \textbf{P}rediction
 
 \end{abbreviations}
-
-%----------------------------------------------------------------------------------------
-%	SYMBOLS
-%----------------------------------------------------------------------------------------
-
-\begin{symbols}{lll} % Include a list of Symbols (a three column table)
-
-$a$ & distance & \si{\meter} \\
-$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
-%Symbol & Name & Unit \\
-
-\addlinespace % Gap to separate the Roman symbols from the Greek
-
-$\omega$ & angular frequency & \si{\radian} \\
-
-\end{symbols}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -168,10 +165,10 @@ $\omega$ & angular frequency & \si{\radian} \\
 
 \include{Sections/Introduction}
 \include{Sections/Background}
-%\include{Sections/Chapter2} 
-%\include{Sections/Chapter3}
-%\include{Sections/Chapter4} 
-%\include{Sections/Chapter5} 
+\include{Sections/ExperimentMaterialsMethodology} 
+\include{Sections/Results}
+\include{Sections/AnalysisConclusions} 
+\include{Sections/WorksCited} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
