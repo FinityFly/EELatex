@@ -13,7 +13,7 @@ In this paper, heavy importance is placed on primary experimental observations a
 \section{Datasets Used}
 
 I used “Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition” published by Pete Warden to train my neural network. The dataset contains 6500 sets of one-word dialogue paired with its transcription as the true output. I later altered this dataset by concatenating copies of the audio data with various types of background noise using Librosa.
-\par
+\newline\par
 However, as I plan to use continuous speech recognition neural network architectures, using this dataset is only a simplistic and intuitive demonstration of what the model is capable of doing, in addition to an effort by myself to not be too ambitious and over-extend my experimentation for this report. Further developments of this model would feature and employ other open-source datasets that include multi-word speech data, such as podcasts or court hearings. I hope to alter this later on.
 
 
@@ -29,8 +29,8 @@ The dataset provided the sound files in .wav format, which made it very simple t
 %-----------------------------------
 \section{Network Architecture}
 
-This report uses an end-to-end recurrent neural network consisting of a layer of LSTM cells and a final decoding node to process and display the output. The LSTM model consists of 256 hidden units that accept an input that's of shape (3, 26) and output a one-hot matrix of shape (28, 1) at each time step. The output is a probability matrix of all the letters of the alphabet the model predicts the audio signal refers to at that point in time, as well as a space and a “blank” character that are incorporated to separate concurrent letters in the combined output. A working result of this model would output a sequence of slurred letters that, once decoded with Connectionist Temporal Classification (CTC) loss, would output a word; the model could output “ww\_eee\_ee\_p”, which suggests that the original audio input is of a person saying "weep”. 
-\par
+This report uses an end-to-end recurrent phoneme-based neural network consisting of a layer of LSTM cells and a final decoding node to process and display the output. The LSTM model consists of 256 hidden units that accept an input that’s of shape (3, 26) and output a one-hot matrix of shape (46, 1) at each time step. The output is a probability matrix of all the 44 English phonemes, following ARPABET conventions, that the model predicts the audio signal refers to at that point in time, as well as a space and a “blank” character that are incorporated to separate concurrent letters in the combined output. I choose to use a phoneme classification system over character-based or word-based since I believe there is more flexibility and accuracy established when you dissect a sentence into the fundamental building blocks of spoken language and build from the ground up once the phonemes are selected. A working result of this model would output a sequence of slurred letters that, once decoded with Connectionist Temporal Classification (CTC) loss, would output a word; the model could output “ww_eee_ee_p”, which suggests that the original audio input is of a person saying “weep”. After the fact, these phonemes are then fed into an English language model to convert the outputted phonemes into written text.
+\newline\par
 The model was trained on 5000 pieces of training data, 10 epochs of such, with a learning rate of 0.01 and evaluated by three validation datasets, for each of the three trials, that held 500 pieces of data to determine the accuracy of each model.
 
 %-----------------------------------
@@ -38,6 +38,6 @@ The model was trained on 5000 pieces of training data, 10 epochs of such, with a
 %-----------------------------------
 \section{Experimental Process}
 
-Before I elaborate on my experimental process, it is essential to clarify some notable semantics of this investigation. The general performance basis of a model is assessed on a synthesis of its accuracy and its efficiency, though with a greater emphasis on accuracy. Whether an ASR system is successful is determined by whether its accuracy is greater than 50% when recognizing NLC and its processing latency is less than five seconds. The accuracy of a model is calculated appertaining to its loss from stochastic CTC and the efficiency of a model is gauged on a comparison of its estimated time complexity and a measured difference of time. 
-\par
-I will hold three trials for each set of independent variables to answer my research question. The performance of raw spectrograms, MFCCs, DWTs, LPCs, and PLPs will be assessed against each other in three different dataset variants: with no background noise, with white noise, and with other miscellaneous background noises, amounting to a total of 45 trials. 
+Before I elaborate on my experimental process, it is essential to clarify some notable semantics of this investigation. The general performance basis of a model is assessed on a synthesis of its accuracy and its efficiency, though with a greater emphasis on accuracy. Whether an ASR system is successful is determined by whether its accuracy is greater than 50\% when recognizing NLC and whether its processing latency is less than five seconds. The accuracy of a model is calculated appertaining to its loss from stochastic CTC and the efficiency of a model is gauged on a comparison of its estimated time complexity and a measured difference of time. 
+\newline\par
+I will hold three trials for each set of independent variables to answer my research question. The performance of raw spectrograms, MFCCs, DWTs, LPCs, and PLPs will be assessed against each other in three different dataset variants: with no background noise, with white noise, and with other miscellaneous background noises, amounting to a total of 45 trials.

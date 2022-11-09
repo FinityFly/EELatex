@@ -5,16 +5,33 @@
 \label{AnalysisConclusions} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 %----------------------------------------------------------------------------------------
-%	ABSTRACT
+%	EXPERIMENTAL ANALYSIS AND TRENDS
 %----------------------------------------------------------------------------------------
 
-\section{Abstract}
+\section{Experimental Analysis and Trends}
 
-Purpose of this extended essay
+In the visualizations of the experiment results above, a lot can be said about to what extent MFCCs outperform DWTs, LPCs, and PLPs. As observed in Figure 7, Mel spectrograms vastly outperformed all of the feature extraction algorithms in terms of accuracy when there is no background noise present, but when taking time into account, MFCCs are slightly faster to process. Nonetheless, usually during practical implementations of speech recognition, unlike these trials, there will most likely be less than eight minutes of total audio data to transcribe (500 trials of 1-second audio clips), making time complexity, in this case, less important than in other programming scenarios. It also should be mentioned that the pre-processing time during model training is irrelevant to the analysis of these feature extraction algorithms, as solely the final product of these trials is assessed.
+\newline\par
+There is also a clear correlation between the performances of the spectrograms and the prediction models in various aspects. The spectrograms, including MFCCs, were much more negatively affected by the addition of background noise, which confirms the speculations of such found during my search, but still performed better than LPCs and PLPs. This could be due to the fact that prediction models such as PLP rely much more on extracting relational data instead of literal data.
+\newline\par
+The experimental process could also be improved, as it led to a few sources of error: the first of which lies in the consistency of the speed of the computer the tests were ran on. This error can be disregarded if an uncertainty of ±0.1 is added to the running times of each trial. Another possible source of error is overfitting of the training data set from especially fast learning, which may have caused a lower than optimal performance on test datasets than could have been corrected if the model stopped training earlier. I did not account for this error since I can derive my conclusions form purely comparative data between the feature extraction algorithms.
+\newline\par
+I believe that it would be worthwhile to examine the extent to which MFCCs can perform well in noise-heavy environments with the use of noise cancellation software; raw experimental results do not draw out clear conclusions on whether MFCCs should be used if a system expects a high magnitude of background noise.
 
 %-----------------------------------
-%	RATIONALE
+%	FURTHER RESEARCH OPPORTUNITIES AND ASPIRATIONS
 %-----------------------------------
-\section{Rationale}
 
-Choice of topic
+\section{Further Research Opportunities and Aspirations}
+
+There are several further research opportunities and aspirations I’d like to explore in the future regarding and related to my research question. The speech feature extraction algorithms I examined in this paper are a portion of the most conventionally used computer scientists use today for speech recognition. Even so, there are some modern and advanced yet ambiguous speech feature extraction algorithms out there that may perform even better than the ones investigated in this report but don’t have the recognition to gain traction in the field of ASR. Investigating the extent to which these are viable as a replacement for MFCCs could yield interesting results. 
+\newline\par
+Furthermore, in the future, I wish to extensively develop this RNN model further until it’s useable in practical cases. I could research the coupling of bi-directional LSTMs with these feature extraction methods (which are very popular in NLP), work with deep LSTM networks, or even experiment with Gated Recurrent Units or transforms to see how each compares.
+
+%-----------------------------------
+%	CONCLUSIONS
+%-----------------------------------
+
+\section{Further Research Opportunities and Aspirations}
+
+This paper presented several conclusions regarding the research question at hand through an analysis of the performances of different speech feature extraction algorithms. The results show that although MFCCs are more optimized and contain denser key vocal features of a waveform, Mel spectrograms overall possess the highest degree of accuracy while maintaining a reasonable processing time with large inputs.

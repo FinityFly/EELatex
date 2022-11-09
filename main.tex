@@ -71,7 +71,7 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 
 \thesistitle{Investigating the Impact of Various Feature Extraction Algorithms on Performance in Automatic Speech Recognition Systems\newline \\
-	\large To What Extent Do Mel-Frequency Cepstrum Coefficients Outperform Other Speech Feature Extraction Algorithms in Speech Recognition Neural Networks?}
+	\large \emph{To What Extent Do Mel-Frequency Cepstrum Coefficients Outperform Other Speech Feature Extraction Algorithms in Speech Recognition Neural Networks?}}
 \supervisor{Courtney \textsc{Edwards}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \degree{International Baccalaureate Programme} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 \author{Daniel \textsc{Lu}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
@@ -98,7 +98,8 @@ headsepline, % Uncomment to get a line under the header
 \begin{center}
 
 \vspace*{.06\textheight}
-{\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
+{\scshape\LARGE \univname\par} % University name
+{\scshape \degreename\par}\vspace{1.5cm} % University name
 
 \HRule \\[0.4cm] % Horizontal line
 {\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
@@ -106,7 +107,7 @@ headsepline, % Uncomment to get a line under the header
  
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushleft} \large
-\emph{Author:}\\
+\emph{Student:}\\
 {\authorname} % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}
@@ -119,7 +120,8 @@ headsepline, % Uncomment to get a line under the header
  
 \vfill
 
-{\large \today}\\[4cm] % Date
+{\large \today}\\[1cm] % Date
+\large{3680 Words}\\[2cm] % Word count
 
 \vfill
 \end{center}
@@ -138,7 +140,7 @@ headsepline, % Uncomment to get a line under the header
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
 \textbf{ASR} & \textbf{A}utomatic \textbf{S}peech \textbf{R}ecognition\\
-\textbf{LPC} & \textbf{L}inear  textbf{P}redictive \textbf{C}oding\\
+\textbf{LPC} & \textbf{L}inear  \textbf{P}redictive \textbf{C}oding\\
 \textbf{DFT} & \textbf{D}iscrete \textbf{F}ourier \textbf{T}ransform\\
 \textbf{FFT} & \textbf{F}ast \textbf{F}ourier \textbf{T}ransform\\
 \textbf{IFT} & \textbf{I}nverse \textbf{F}ourier \textbf{T}ransform\\
@@ -163,12 +165,13 @@ headsepline, % Uncomment to get a line under the header
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
+Note: most of the later sections concerning data and analysis are subject to major changes in the few upcoming weeks
+
 \include{Sections/Introduction}
 \include{Sections/Background}
 \include{Sections/ExperimentMaterialsMethodology} 
 \include{Sections/Results}
-\include{Sections/AnalysisConclusions} 
-\include{Sections/WorksCited} 
+\include{Sections/AnalysisConclusions}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
