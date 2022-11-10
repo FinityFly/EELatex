@@ -10,8 +10,398 @@
 
 \section{Tabular Presentation of Data}
 
+The tables below show the experimental results of all the trials, with each table presenting the performance of each feature extraction algorithm in varying types of noise.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}{@{}lllll@{}}
+    \textbf{Algorithm} &
+      \textbf{Noise} &
+      \textbf{Trials} &
+      \textbf{Accuracy (\%)} &
+      \textbf{Processing Time (s)} \\* \midrule
+    \endfirsthead
+    %
+    \multicolumn{5}{c}%
+    {{\bfseries Table \thetable\ continued from previous page}} \\
+    \textbf{Algorithm} &
+      \textbf{Noise} &
+      \textbf{Trials} &
+      \textbf{Accuracy (\%)} &
+      \textbf{Processing Time (s)} \\* \midrule
+    \endhead
+    %
+    \multicolumn{1}{l|}{\multirow{12}{*}{FFT Spectrogram}} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{None}} &
+      \textit{Trial 1} &
+      0.937 &
+      4.36 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.938 &
+      4.80 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.921 &
+      4.72 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.932 &
+      4.63 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{White}} &
+      \textit{Trial 1} &
+      0.862 &
+      4.29 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.887 &
+      4.63 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.894 &
+      4.73 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.881 &
+      4.55 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{Misc.}} &
+      \textit{Trial 1} &
+      0.686 &
+      4.85 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.621 &
+      4.90 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.684 &
+      4.35 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.664 &
+      4.70 \\* \midrule
+    \multicolumn{1}{l|}{\multirow{12}{*}{Mel Spectrogram}} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{None}} &
+      \textit{Trial 1} &
+      0.927 &
+      4.53 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.948 &
+      4.88 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.950 &
+      4.68 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.941 &
+      4.69 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{White}} &
+      \textit{Trial 1} &
+      0.767 &
+      4.41 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.793 &
+      4.49 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.788 &
+      4.94 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.782 &
+      4.61 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{Misc.}} &
+      \textit{Trial 1} &
+      0.626 &
+      934.93 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.613 &
+      4.62 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.640 &
+      4.46 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.626 &
+      4.67 \\* \midrule
+    \multicolumn{1}{l|}{\multirow{12}{*}{MFCC}} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{None}} &
+      \textit{Trial 1} &
+      0.866 &
+      4.27 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.855 &
+      4.55 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.869 &
+      4.19 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.863 &
+      4.34 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{White}} &
+      \textit{Trial 1} &
+      0.783 &
+      4.13 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.758 &
+      4.53 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.750 &
+      4.43 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.764 &
+      4.36 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{Misc.}} &
+      \textit{Trial 1} &
+      0.579 &
+      4.28 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.585 &
+      4.41 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.610 &
+      4.41 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.592 &
+      4.37 \\* \midrule
+    \multicolumn{1}{l|}{\multirow{12}{*}{DWT}} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{None}} &
+      \textit{Trial 1} &
+      0.897 &
+      4.67 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.841 &
+      4.46 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.874 &
+      4.44 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.870 &
+      4.52 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{White}} &
+      \textit{Trial 1} &
+      0.873 &
+      4.43 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.834 &
+      4.42 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.869 &
+      4.37 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.858 &
+      4.40 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{Misc.}} &
+      \textit{Trial 1} &
+      0.756 &
+      4.53 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.734 &
+      4.48 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.752 &
+      4.31 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.747 &
+      4.44 \\* \midrule
+    \multicolumn{1}{l|}{\multirow{12}{*}{LPC}} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{None}} &
+      \textit{Trial 1} &
+      0.882 &
+      4.61 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.833 &
+      4.91 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.840 &
+      4.39 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.852 &
+      4.64 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{White}} &
+      \textit{Trial 1} &
+      0.849 &
+      4.53 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.826 &
+      4.70 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.857 &
+      4.57 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.844 &
+      4.6 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{Misc.}} &
+      \textit{Trial 1} &
+      0.756 &
+      4.61 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.694 &
+      5.10 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.732 &
+      4.79 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.747 &
+      4.83 \\* \midrule
+    \multicolumn{1}{l|}{\multirow{12}{*}{PLP}} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{None}} &
+      \textit{Trial 1} &
+      0.832 &
+      4.55 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.839 &
+      4.76 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.861 &
+      4.77 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.843 &
+      4.73 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{White}} &
+      \textit{Trial 1} &
+      0.789 &
+      4.65 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.817 &
+      4.53 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.837 &
+      4.92 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.814 &
+      4.70 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\multirow{4}{*}{Misc.}} &
+      \textit{Trial 1} &
+      0.728 &
+      4.91 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 2} &
+      0.715 &
+      4.89 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \textit{Trial 3} &
+      0.734 &
+      4.66 \\
+    \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      Average &
+      0.745 &
+      4.81 \\
+    \caption{Experimental results}
+    \label{tab:datatable}
+\end{longtable}
+
 %-----------------------------------
 %	GRAPHICAL PRESENTATION OF DATA
 %-----------------------------------
 
 \section{Graphical Presentation of Data}
+
+Since the data above will be changed in the near future, I analyzed it much shallower and thus without a graphical representation.

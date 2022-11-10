@@ -10,7 +10,7 @@
 
 \section{Experimental Analysis and Trends}
 
-In the visualizations of the experiment results above, a lot can be said about to what extent MFCCs outperform DWTs, LPCs, and PLPs. As observed in Figure 7, Mel spectrograms vastly outperformed all of the feature extraction algorithms in terms of accuracy when there is no background noise present, but when taking time into account, MFCCs are slightly faster to process. Nonetheless, usually during practical implementations of speech recognition, unlike these trials, there will most likely be less than eight minutes of total audio data to transcribe (500 trials of 1-second audio clips), making time complexity, in this case, less important than in other programming scenarios. It also should be mentioned that the pre-processing time during model training is irrelevant to the analysis of these feature extraction algorithms, as solely the final product of these trials is assessed.
+In the visualizations of the experiment results above, a lot can be said about to what extent MFCCs outperform DWTs, LPCs, and PLPs. As observed in Figure 4.1, Mel spectrograms vastly outperformed all of the feature extraction algorithms in terms of accuracy when there is no background noise present, but when taking time into account, MFCCs are slightly faster to process. Nonetheless, usually during practical implementations of speech recognition, unlike these trials, there will most likely be less than eight minutes of total audio data to transcribe (500 trials of 1-second audio clips), making time complexity, in this case, less important than in other programming scenarios. It also should be mentioned that the pre-processing time during model training is irrelevant to the analysis of these feature extraction algorithms, as solely the final product of these trials is assessed.
 \newline\par
 There is also a clear correlation between the performances of the spectrograms and the prediction models in various aspects. The spectrograms, including MFCCs, were much more negatively affected by the addition of background noise, which confirms the speculations of such found during my search, but still performed better than LPCs and PLPs. This could be due to the fact that prediction models such as PLP rely much more on extracting relational data instead of literal data.
 \newline\par
@@ -32,6 +32,6 @@ Furthermore, in the future, I wish to extensively develop this RNN model further
 %	CONCLUSIONS
 %-----------------------------------
 
-\section{Further Research Opportunities and Aspirations}
+\section{Conclusions}
 
 This paper presented several conclusions regarding the research question at hand through an analysis of the performances of different speech feature extraction algorithms. The results show that although MFCCs are more optimized and contain denser key vocal features of a waveform, Mel spectrograms overall possess the highest degree of accuracy while maintaining a reasonable processing time with large inputs.

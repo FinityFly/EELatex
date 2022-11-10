@@ -15,7 +15,7 @@ Automatic speech recognition models can be split into two broad categories of co
 %-----------------------------------
 %	RNN
 %-----------------------------------
-\section{Recurrent Neural Networks}
+\section{Recurrent Neural Networks for ASR}
 
 Recurrent neural networks are a variant of deep learning neural networks that use time-sequential data without a fixed shape. These systems are inspired by the biological composition of neurons in the brain, as humans have learned long ago to adapt their innovations from nature. Each neuron, out of around 100 million, is interconnected to many other neurons and passes a signal via its axon to receiving axon terminals belonging to other neurons. Contrastingly, in an artificial neural network, a combination of weights and biases stacked in layers are constantly optimized through gradient descent to produce a matrix of probabilities that highlight the best possible output the network can generate at its current state (for the case of classification architectures). In each cell, a dot product of the input matrix and the cell’s weight matrix is done and summed with the cell’s bias matrix to create an output matrix of values, fed into all of the nodes in the next layer. At first, these matrices use senseless, randomly generated weights and biases that result in a completely random output. However, as the model calculates its loss from an evaluation of the net deviation of the predicted output from the ground truth, a gradient is formulated that adjusts each layer’s parameters closer to what would create an output with a lower loss. The higher loss an output receives, the greater magnitude of the gradient is passed to backpropagation and the more each node is changed, with the vice versa applying as well.
 \newline\par
@@ -24,19 +24,23 @@ In a typical multi-layer deep learning neural network, the input and output shap
 \begin{figure}[th]
     \centering
     \includegraphics[width=0.5\textwidth]{Figures/rnnarch.png}
+    \[ h_t = \tanh(W(
+        \begin{pmatrix}
+            h_{t-1} \\ x_t
+        \end{pmatrix}
+    )) \]
     \decoRule
-    \caption[RNNCell]{The internal composition of a hyperbolic tan RNN cell}
+    \caption[RNN Cell]{The internal composition of a hyperbolic tan RNN cell}
     \label{fig:RNNCell}
 \end{figure}
 
 The distribution of input data and output data can vary from network to network and is ultimately based on the shape of the input data and the desired shape of the output data. For example, a music generation RNN could take in a dataset of Vivaldi’s works as an input and output an infinite length of completely original Vivaldi-styled music: this model would be classified as a one-to-many RNN structure. The following table (Table 2.1) describes four main types of RNN structures that satisfy most machine learning purposes.
 
 \begin{table}
-    \label{tab:RNNStructures}
     \centering
     \begin{tabular}{p{0.16\textwidth}p{0.23\textwidth}p{0.24\textwidth}p{0.15\textwidth}}
         \toprule
-        \tabhead{Architecture} & \tabhead{Characteristics} & \tabhead{Application} & \tabhead{Diagram} \\
+        \textbf{Architecture} & \textbf{Characteristics} & \textbf{Application} & \textbf{Diagram} \\
         \midrule
 
         One-to-One & Single input \newline Single output & Image classification & 
@@ -54,6 +58,7 @@ The distribution of input data and output data can vary from network to network 
         \bottomrule\\
     \end{tabular}
     \caption{Four types of recurrent neural network structures}
+    \label{tab:RNNStructures}
 \end{table}
 
 Due to the continuous nature of NLC, multiple inputs as the audio data and its respective outputs as phonemes, letters, or words are present. Thus, a many-to-many structure will be used as the framework for this investigation’s experimentation.
@@ -72,6 +77,21 @@ Long Short-Term Memory cells counter the two problems above by incorporating an 
 \begin{figure}[th]
     \centering
     \includegraphics[width=0.5\textwidth]{Figures/lstmarch.png}
+    \begin{displaymath}
+    \begin{pmatrix}
+        i_{gate} \\ f_{gate} \\ o_{gate} \\ g_{gate}
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        \sigma \\ \sigma \\ \sigma \\ \tanh
+    \end{pmatrix}
+    W
+    \begin{pmatrix}
+        h_{t-1} \\ x_t
+    \end{pmatrix} \\
+    c_t = f \cdot c_{t-1} + i \cdot g \\
+    h_t = o \cdot \tanh(c_t)
+    \end{displaymath} \\
     \decoRule
     \caption[LSTM Cell]{The internal composition of an LSTM cell}
     \label{fig:LSTMCell}

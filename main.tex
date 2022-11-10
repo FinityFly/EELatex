@@ -51,6 +51,10 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
 \usepackage{indentfirst}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{amsmath}
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -121,7 +125,7 @@ headsepline, % Uncomment to get a line under the header
 \vfill
 
 {\large \today}\\[1cm] % Date
-\large{3680 Words}\\[2cm] % Word count
+\large{3662 Words}\\[2cm] % Word count
 
 \vfill
 \end{center}
@@ -145,7 +149,7 @@ headsepline, % Uncomment to get a line under the header
 \textbf{FFT} & \textbf{F}ast \textbf{F}ourier \textbf{T}ransform\\
 \textbf{IFT} & \textbf{I}nverse \textbf{F}ourier \textbf{T}ransform\\
 \textbf{HMM} & \textbf{H}idden \textbf{M}arkov \textbf{M}odel\\
-\textbf{CTC} & \textbf{C}onnectionist \textbf{T}emporal\textbf{C}lassification\\
+\textbf{CTC} & \textbf{C}onnectionist \textbf{T}emporal \textbf{C}lassification\\
 \textbf{DDC} & \textbf{D}irected \textbf{D}ialogue \textbf{C}onversations\\
 \textbf{NLC} & \textbf{N}atural \textbf{L}anguage \textbf{C}onversations\\
 \textbf{NLP} & \textbf{N}atural \textbf{L}anguage \textbf{P}rocessing\\
@@ -165,13 +169,12 @@ headsepline, % Uncomment to get a line under the header
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-Note: most of the later sections concerning data and analysis are subject to major changes in the few upcoming weeks
-
 \include{Sections/Introduction}
 \include{Sections/Background}
 \include{Sections/ExperimentMaterialsMethodology} 
 \include{Sections/Results}
 \include{Sections/AnalysisConclusions}
+\include{Sections/Bibliography}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
