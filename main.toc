@@ -1,0 +1,25 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Contents}{ii}{chapter*.1}%
+\contentsline {chapter}{List of Abbreviations}{iii}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.4}%
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.5}%
+\contentsline {section}{\numberline {2.1}Automatic Speech Recognition}{3}{section.6}%
+\contentsline {section}{\numberline {2.2}Recurrent Neural Networks for ASR}{3}{section.7}%
+\contentsline {section}{\numberline {2.3}Long Short-Term Memory}{7}{section.11}%
+\contentsline {section}{\numberline {2.4}Feature Extraction Algorithms}{8}{section.14}%
+\contentsline {chapter}{\numberline {3}Experiment Materials \& Methodology}{11}{chapter.17}%
+\contentsline {section}{\numberline {3.1}Datasets Used}{11}{section.18}%
+\contentsline {section}{\numberline {3.2}Pre-Processing}{11}{section.19}%
+\contentsline {section}{\numberline {3.3}Network Architecture}{12}{section.21}%
+\contentsline {section}{\numberline {3.4}Experimental Process}{12}{section.23}%
+\contentsline {chapter}{\numberline {4}Experimental Results}{14}{chapter.24}%
+\contentsline {section}{\numberline {4.1}Tabular Presentation of Data}{14}{section.25}%
+\contentsline {section}{\numberline {4.2}Graphical Presentation of Data}{14}{section.26}%
+\contentsline {chapter}{\numberline {5}Analysis \& Conclusions}{17}{chapter.32}%
+\contentsline {section}{\numberline {5.1}Experimental Analysis and Trends}{17}{section.33}%
+\contentsline {section}{\numberline {5.2}Further Research Opportunities and Aspirations}{18}{section.36}%
+\contentsline {section}{\numberline {5.3}Conclusions}{19}{section.37}%
+\contentsline {chapter}{\numberline {A}Appendix A - Epoch Loss}{23}{appendix.39}%
+\contentsline {chapter}{Bibliography}{23}{chapter*.38}%
+\contentsline {chapter}{\numberline {B}Appendix B - Execution Time}{25}{appendix.44}%
+\contentsline {chapter}{\numberline {C}Appendix C - Model Graph}{26}{appendix.49}%

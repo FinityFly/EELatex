@@ -26,7 +26,7 @@
 %----------------------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}[1996/12/01]
-\newcommand{\classname}{MastersDoctoralThesis}
+\newcommand{\classname}{Thesis}
 \ProvidesClass{\classname}[2017/08/27 v1.6 LaTeXTemplates.com]
 \providecommand{\baseclass}{book}
 \RequirePackage{etoolbox}

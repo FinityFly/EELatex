@@ -1,0 +1,1353 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{wang_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=63f376dd432f8a1e541a5e366d2f6450}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Riqiang},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{63f376dd432f8a1e541a5e366d2f6450}
+      \strng{fullhash}{63f376dd432f8a1e541a5e366d2f6450}
+      \strng{bibnamehash}{63f376dd432f8a1e541a5e366d2f6450}
+      \strng{authorbibnamehash}{63f376dd432f8a1e541a5e366d2f6450}
+      \strng{authornamehash}{63f376dd432f8a1e541a5e366d2f6450}
+      \strng{authorfullhash}{63f376dd432f8a1e541a5e366d2f6450}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dialpad}
+      \field{title}{Automatic Speech Recognition 101: How ASR systems work}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.dialpad.com/blog/automatic-speech-recognition/
+      \endverb
+      \verb{url}
+      \verb https://www.dialpad.com/blog/automatic-speech-recognition/
+      \endverb
+    \endentry
+    \entry{thomala_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7b9849d13b8bca8fb52caaff07e1fa14}{%
+           family={Thomala},
+           familyi={T\bibinitperiod},
+           given={Lai\bibnamedelima Lin},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b9849d13b8bca8fb52caaff07e1fa14}
+      \strng{fullhash}{7b9849d13b8bca8fb52caaff07e1fa14}
+      \strng{bibnamehash}{7b9849d13b8bca8fb52caaff07e1fa14}
+      \strng{authorbibnamehash}{7b9849d13b8bca8fb52caaff07e1fa14}
+      \strng{authornamehash}{7b9849d13b8bca8fb52caaff07e1fa14}
+      \strng{authorfullhash}{7b9849d13b8bca8fb52caaff07e1fa14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statista}
+      \field{month}{4}
+      \field{title}{Baidu: R&amp;D spending 2021}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/1079978/china-baidu-research-and-development-costs/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/1079978/china-baidu-research-and-development-costs/
+      \endverb
+    \endentry
+    \entry{sonix_authors_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2331078dcd4308bf60f4a34e6ced34bc}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={Sonix},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2331078dcd4308bf60f4a34e6ced34bc}
+      \strng{fullhash}{2331078dcd4308bf60f4a34e6ced34bc}
+      \strng{bibnamehash}{2331078dcd4308bf60f4a34e6ced34bc}
+      \strng{authorbibnamehash}{2331078dcd4308bf60f4a34e6ced34bc}
+      \strng{authornamehash}{2331078dcd4308bf60f4a34e6ced34bc}
+      \strng{authorfullhash}{2331078dcd4308bf60f4a34e6ced34bc}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sonix}
+      \field{title}{A short history of speech recognition}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://sonix.ai/history-of-speech-recognition
+      \endverb
+      \verb{url}
+      \verb https://sonix.ai/history-of-speech-recognition
+      \endverb
+    \endentry
+    \entry{summa_linguae_authors_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f63a60e7c44cd1fb5a24614e82cc4e17}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={Summa\bibnamedelima Linguae},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f63a60e7c44cd1fb5a24614e82cc4e17}
+      \strng{fullhash}{f63a60e7c44cd1fb5a24614e82cc4e17}
+      \strng{bibnamehash}{f63a60e7c44cd1fb5a24614e82cc4e17}
+      \strng{authorbibnamehash}{f63a60e7c44cd1fb5a24614e82cc4e17}
+      \strng{authornamehash}{f63a60e7c44cd1fb5a24614e82cc4e17}
+      \strng{authorfullhash}{f63a60e7c44cd1fb5a24614e82cc4e17}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Summa Linguae}
+      \field{month}{6}
+      \field{title}{Speech recognition software: History, present, and future}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://summalinguae.com/language-technology/speech-recognition-software-history-future/
+      \endverb
+      \verb{url}
+      \verb https://summalinguae.com/language-technology/speech-recognition-software-history-future/
+      \endverb
+    \endentry
+    \entry{janse_magre_kurzekar_deshmukh_2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c01dcd323e1e5ece779cacdea9995d25}{%
+           family={Janse},
+           familyi={J\bibinitperiod},
+           given={Pooja\bibnamedelima V},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=45d1c01f598964983bb513f544980425}{%
+           family={Magre},
+           familyi={M\bibinitperiod},
+           given={Smita\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a31672e5db227b5c4103d2205ecc7353}{%
+           family={Kurzekar},
+           familyi={K\bibinitperiod},
+           given={Pratik\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=001175ce1a5efa96ddf1e674415d8e9b}{%
+           family={Deshmukh},
+           familyi={D\bibinitperiod},
+           given={Rajendra\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee961f0dab810404a4a19c25b198a267}
+      \strng{fullhash}{432d3eb3aaad5d65335a5dedd22f08d5}
+      \strng{bibnamehash}{432d3eb3aaad5d65335a5dedd22f08d5}
+      \strng{authorbibnamehash}{432d3eb3aaad5d65335a5dedd22f08d5}
+      \strng{authornamehash}{ee961f0dab810404a4a19c25b198a267}
+      \strng{authorfullhash}{432d3eb3aaad5d65335a5dedd22f08d5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Engineering Research &amp; Technology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{A Comparative Study between MFCC and DWT Feature Extraction Technique}
+      \field{volume}{3}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.17577/IJERTV3IS11110
+      \endverb
+    \endentry
+    \entry{ajibola_alim_khair_alang_rashid_2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cef20281d608570f3ad080939d271754}{%
+           family={Ajibola\bibnamedelima Alim},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Sabur},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cedd56876275f9fd0ad198044604b7bc}{%
+           family={Khair\bibnamedelimb Alang\bibnamedelima Rashid},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Nahrul},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f98d4c018750fa77e9a7c65d2f07da9}
+      \strng{fullhash}{8f98d4c018750fa77e9a7c65d2f07da9}
+      \strng{bibnamehash}{8f98d4c018750fa77e9a7c65d2f07da9}
+      \strng{authorbibnamehash}{8f98d4c018750fa77e9a7c65d2f07da9}
+      \strng{authornamehash}{8f98d4c018750fa77e9a7c65d2f07da9}
+      \strng{authorfullhash}{8f98d4c018750fa77e9a7c65d2f07da9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{From Natural to Artificial Intelligence - Algorithms and Applications}
+      \field{month}{12}
+      \field{title}{Some Commonly Used Speech Feature Extraction Algorithms}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.5772/intechopen.80419
+      \endverb
+    \endentry
+    \entry{koehn_2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dac0b41a5ea5e261d00f3251b76b91bd}{%
+           family={Koehn},
+           familyi={K\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{dac0b41a5ea5e261d00f3251b76b91bd}
+      \strng{fullhash}{dac0b41a5ea5e261d00f3251b76b91bd}
+      \strng{bibnamehash}{dac0b41a5ea5e261d00f3251b76b91bd}
+      \strng{authorbibnamehash}{dac0b41a5ea5e261d00f3251b76b91bd}
+      \strng{authornamehash}{dac0b41a5ea5e261d00f3251b76b91bd}
+      \strng{authorfullhash}{dac0b41a5ea5e261d00f3251b76b91bd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Neural Machine Translation}
+      \field{year}{2020}
+    \endentry
+    \entry{graves_mohamed_hinton_2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0d87a656f9bdc99e921c45f73da515b8}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Abdel-rahman},
+           giveni={A\bibinithyphendelim r\bibinitperiod}}}%
+        {{hash=9a8750ccdb2a4cf14d2655face1ce016}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{fullhash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{bibnamehash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{authorbibnamehash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{authornamehash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{authorfullhash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings}
+      \field{month}{3}
+      \field{title}{Speech Recognition with Deep Recurrent Neural Networks}
+      \field{volume}{38}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1109/icassp.2013.6638947
+      \endverb
+    \endentry
+    \entry{ibm_cloud_education_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5a3089a19a6fe2740bde62328d352eec}{%
+           family={Education},
+           familyi={E\bibinitperiod},
+           given={IBM\bibnamedelima Cloud},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a3089a19a6fe2740bde62328d352eec}
+      \strng{fullhash}{5a3089a19a6fe2740bde62328d352eec}
+      \strng{bibnamehash}{5a3089a19a6fe2740bde62328d352eec}
+      \strng{authorbibnamehash}{5a3089a19a6fe2740bde62328d352eec}
+      \strng{authornamehash}{5a3089a19a6fe2740bde62328d352eec}
+      \strng{authorfullhash}{5a3089a19a6fe2740bde62328d352eec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IBM}
+      \field{month}{9}
+      \field{title}{What are recurrent neural networks?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.ibm.com/cloud/learn/recurrent-neural-networks
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/cloud/learn/recurrent-neural-networks
+      \endverb
+    \endentry
+    \entry{lopez_2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a533b4b3f8641bb450cc7ef26cd7ec03}{%
+           given={dProgrammer},
+           giveni={d\bibinitperiod},
+           prefix={lopez\bibnamedelima dProgrammer},
+           prefixi={l\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{a533b4b3f8641bb450cc7ef26cd7ec03}
+      \strng{fullhash}{a533b4b3f8641bb450cc7ef26cd7ec03}
+      \strng{bibnamehash}{a533b4b3f8641bb450cc7ef26cd7ec03}
+      \strng{authorbibnamehash}{a533b4b3f8641bb450cc7ef26cd7ec03}
+      \strng{authornamehash}{a533b4b3f8641bb450cc7ef26cd7ec03}
+      \strng{authorfullhash}{a533b4b3f8641bb450cc7ef26cd7ec03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RNN, LSTM &amp; GRU}
+      \field{month}{4}
+      \field{title}{RNN vs LSTM vs GRU}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://dprogrammer.org/wp-content/uploads/2019/04/RNN-vs-LSTM-vs-GRU-1024x308.png
+      \endverb
+      \verb{url}
+      \verb http://dprogrammer.org/wp-content/uploads/2019/04/RNN-vs-LSTM-vs-GRU-1024x308.png
+      \endverb
+    \endentry
+    \entry{mehrotra_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=28df018495cfe919b9c39c5dd4eb056a}{%
+           family={Mehrotra},
+           familyi={M\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{28df018495cfe919b9c39c5dd4eb056a}
+      \strng{fullhash}{28df018495cfe919b9c39c5dd4eb056a}
+      \strng{bibnamehash}{28df018495cfe919b9c39c5dd4eb056a}
+      \strng{authorbibnamehash}{28df018495cfe919b9c39c5dd4eb056a}
+      \strng{authornamehash}{28df018495cfe919b9c39c5dd4eb056a}
+      \strng{authorfullhash}{28df018495cfe919b9c39c5dd4eb056a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Analytics Vidhya}
+      \field{month}{7}
+      \field{title}{Let’s Understand The Problems with Recurrent Neural Networks}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.analyticsvidhya.com/blog/2021/07/lets-understand-the-problems-with-recurrent-neural-networks/.
+      \endverb
+      \verb{url}
+      \verb https://www.analyticsvidhya.com/blog/2021/07/lets-understand-the-problems-with-recurrent-neural-networks/.
+      \endverb
+    \endentry
+    \entry{brownlee_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MachineLearningMastery.com}
+      \field{month}{7}
+      \field{title}{A gentle introduction to long short-term memory networks by the experts}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/
+      \endverb
+    \endentry
+    \entry{lendave_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f31bead9885169641f9b94a32227edbc}{%
+           family={Lendave},
+           familyi={L\bibinitperiod},
+           given={Vijaysinh},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Analytics India Magazine}%
+      }
+      \strng{namehash}{f31bead9885169641f9b94a32227edbc}
+      \strng{fullhash}{f31bead9885169641f9b94a32227edbc}
+      \strng{bibnamehash}{f31bead9885169641f9b94a32227edbc}
+      \strng{authorbibnamehash}{f31bead9885169641f9b94a32227edbc}
+      \strng{authornamehash}{f31bead9885169641f9b94a32227edbc}
+      \strng{authorfullhash}{f31bead9885169641f9b94a32227edbc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developers Corner}
+      \field{month}{8}
+      \field{title}{LSTM Vs GRU in Recurrent Neural Network: A Comparative Study}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://analyticsindiamag.com/lstm-vs-gru-in-recurrent-neural-network-a-comparative-study/
+      \endverb
+      \verb{url}
+      \verb https://analyticsindiamag.com/lstm-vs-gru-in-recurrent-neural-network-a-comparative-study/
+      \endverb
+    \endentry
+    \entry{mahanta_padmanabhan_2021}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=9bb3b12a68042bdc6109dfbb8cbd445e}{%
+           family={Mahanta},
+           familyi={M\bibinitperiod},
+           given={Saranga\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=af7a566f0ef3f8d9dd5350cfac7cd338}{%
+           family={Padmanabhan},
+           familyi={P\bibinitperiod},
+           given={Arvind},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Devopedia Foundation}%
+      }
+      \strng{namehash}{f99c0acd49e3f35faae5a3773a43ed59}
+      \strng{fullhash}{f99c0acd49e3f35faae5a3773a43ed59}
+      \strng{bibnamehash}{f99c0acd49e3f35faae5a3773a43ed59}
+      \strng{authorbibnamehash}{f99c0acd49e3f35faae5a3773a43ed59}
+      \strng{authornamehash}{f99c0acd49e3f35faae5a3773a43ed59}
+      \strng{authorfullhash}{f99c0acd49e3f35faae5a3773a43ed59}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Devopedia}
+      \field{month}{5}
+      \field{title}{Audio Feature Extraction}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://devopedia.org/audio-feature-extraction
+      \endverb
+      \verb{url}
+      \verb https://devopedia.org/audio-feature-extraction
+      \endverb
+    \endentry
+    \entry{smith_2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b051e505a24106df5e79fd95f26ac719}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Julius\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {W3K Publishing}%
+      }
+      \strng{namehash}{b051e505a24106df5e79fd95f26ac719}
+      \strng{fullhash}{b051e505a24106df5e79fd95f26ac719}
+      \strng{bibnamehash}{b051e505a24106df5e79fd95f26ac719}
+      \strng{authorbibnamehash}{b051e505a24106df5e79fd95f26ac719}
+      \strng{authornamehash}{b051e505a24106df5e79fd95f26ac719}
+      \strng{authorfullhash}{b051e505a24106df5e79fd95f26ac719}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Spectral Audio Signal Processing}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://ccrma.stanford.edu/~jos/sasp/
+      \endverb
+      \verb{url}
+      \verb https://ccrma.stanford.edu/~jos/sasp/
+      \endverb
+    \endentry
+    \entry{green_2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6e103b204d80b2a37136d716b4c79a8f}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {British Library}%
+      }
+      \strng{namehash}{6e103b204d80b2a37136d716b4c79a8f}
+      \strng{fullhash}{6e103b204d80b2a37136d716b4c79a8f}
+      \strng{bibnamehash}{6e103b204d80b2a37136d716b4c79a8f}
+      \strng{authorbibnamehash}{6e103b204d80b2a37136d716b4c79a8f}
+      \strng{authornamehash}{6e103b204d80b2a37136d716b4c79a8f}
+      \strng{authorfullhash}{6e103b204d80b2a37136d716b4c79a8f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sound and vision blog}
+      \field{month}{9}
+      \field{title}{Seeing sound: What is a spectrogram?}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://blogs.bl.uk/sound-and-vision/2018/09/seeing-sound-what-is-a-spectrogram.html
+      \endverb
+      \verb{url}
+      \verb https://blogs.bl.uk/sound-and-vision/2018/09/seeing-sound-what-is-a-spectrogram.html
+      \endverb
+    \endentry
+    \entry{li_2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=da32ce59ebe295c8c0c7b1e010237b74}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{da32ce59ebe295c8c0c7b1e010237b74}
+      \strng{fullhash}{da32ce59ebe295c8c0c7b1e010237b74}
+      \strng{bibnamehash}{da32ce59ebe295c8c0c7b1e010237b74}
+      \strng{authorbibnamehash}{da32ce59ebe295c8c0c7b1e010237b74}
+      \strng{authornamehash}{da32ce59ebe295c8c0c7b1e010237b74}
+      \strng{authorfullhash}{da32ce59ebe295c8c0c7b1e010237b74}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Software Engineering}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Performance Analysis of Objective Speech Quality Measures in Mel Domain}
+      \field{volume}{9}
+      \field{year}{2015}
+      \field{pages}{350\bibrangedash 361}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.3923/jse.2015.350.361
+      \endverb
+    \endentry
+    \entry{vedala_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8d9d4d944eec04f9ddb9193147628b70}{%
+           family={Vedala},
+           familyi={V\bibinitperiod},
+           given={Krishna},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \strng{namehash}{8d9d4d944eec04f9ddb9193147628b70}
+      \strng{fullhash}{8d9d4d944eec04f9ddb9193147628b70}
+      \strng{bibnamehash}{8d9d4d944eec04f9ddb9193147628b70}
+      \strng{authorbibnamehash}{8d9d4d944eec04f9ddb9193147628b70}
+      \strng{authornamehash}{8d9d4d944eec04f9ddb9193147628b70}
+      \strng{authorfullhash}{8d9d4d944eec04f9ddb9193147628b70}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{10}
+      \field{title}{Mel scale}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Mel_scale#/media/File:Mel-Hz_plot.svg
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Mel_scale#/media/File:Mel-Hz_plot.svg
+      \endverb
+    \endentry
+    \entry{singh_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=814ed6a2e6c8fdf2631d478e72c1e64f}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Tanveer},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{814ed6a2e6c8fdf2631d478e72c1e64f}
+      \strng{fullhash}{814ed6a2e6c8fdf2631d478e72c1e64f}
+      \strng{bibnamehash}{814ed6a2e6c8fdf2631d478e72c1e64f}
+      \strng{authorbibnamehash}{814ed6a2e6c8fdf2631d478e72c1e64f}
+      \strng{authornamehash}{814ed6a2e6c8fdf2631d478e72c1e64f}
+      \strng{authorfullhash}{814ed6a2e6c8fdf2631d478e72c1e64f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{6}
+      \field{title}{MFCC's made easy}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://medium.com/@tanveer9812/mfccs-made-easy-7ef383006040
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@tanveer9812/mfccs-made-easy-7ef383006040
+      \endverb
+    \endentry
+    \entry{nechyba_2004}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9b2c30c3abbcb1602db55062aefe31ed}{%
+           family={Nechyba},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Florida}%
+      }
+      \strng{namehash}{9b2c30c3abbcb1602db55062aefe31ed}
+      \strng{fullhash}{9b2c30c3abbcb1602db55062aefe31ed}
+      \strng{bibnamehash}{9b2c30c3abbcb1602db55062aefe31ed}
+      \strng{authorbibnamehash}{9b2c30c3abbcb1602db55062aefe31ed}
+      \strng{authornamehash}{9b2c30c3abbcb1602db55062aefe31ed}
+      \strng{authorfullhash}{9b2c30c3abbcb1602db55062aefe31ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Intelligence Lab}
+      \field{month}{2}
+      \field{title}{Introduction to the Discrete Wavelet Transform (DWT)}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://mil.ufl.edu/nechyba/www/eel6562/course_materials/t5.wavelets/intro_dwt.pdf
+      \endverb
+      \verb{url}
+      \verb https://mil.ufl.edu/nechyba/www/eel6562/course_materials/t5.wavelets/intro_dwt.pdf
+      \endverb
+    \endentry
+    \entry{talebi_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3ba231412c5e51144e89bf333ac7c6d4}{%
+           family={Talebi},
+           familyi={T\bibinitperiod},
+           given={Shawhin},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{3ba231412c5e51144e89bf333ac7c6d4}
+      \strng{fullhash}{3ba231412c5e51144e89bf333ac7c6d4}
+      \strng{bibnamehash}{3ba231412c5e51144e89bf333ac7c6d4}
+      \strng{authorbibnamehash}{3ba231412c5e51144e89bf333ac7c6d4}
+      \strng{authornamehash}{3ba231412c5e51144e89bf333ac7c6d4}
+      \strng{authorfullhash}{3ba231412c5e51144e89bf333ac7c6d4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{12}
+      \field{title}{The Wavelet Transform}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/the-wavelet-transform-e9cfa85d7b34
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/the-wavelet-transform-e9cfa85d7b34
+      \endverb
+    \endentry
+    \entry{nehe_holambe_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1484509323ded283571b7e1fc5baa2e}{%
+           family={Nehe},
+           familyi={N\bibinitperiod},
+           given={Navnath\bibnamedelima S},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=24d8198d8b838a291394589c088b4128}{%
+           family={Holambe},
+           familyi={H\bibinitperiod},
+           given={Raghunath\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{45a2e61be78c374c6242d95d558d6c22}
+      \strng{fullhash}{45a2e61be78c374c6242d95d558d6c22}
+      \strng{bibnamehash}{45a2e61be78c374c6242d95d558d6c22}
+      \strng{authorbibnamehash}{45a2e61be78c374c6242d95d558d6c22}
+      \strng{authornamehash}{45a2e61be78c374c6242d95d558d6c22}
+      \strng{authorfullhash}{45a2e61be78c374c6242d95d558d6c22}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EURASIP Journal on Audio, Speech, and Music Processing}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{DWT and LPC based feature extraction methods for isolated word recognition}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1186/1687-4722-2012-7
+      \endverb
+    \endentry
+    \entry{wang_acero_chelba_2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8d8fdf47a09b680c9071fae4dcc827ba}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ye-Yi},
+           giveni={Y\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=62bc8b256f2b83f20a08b77526855c3f}{%
+           family={Acero},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=20d564c7ab8ee38dbb5a76dc77c4f480}{%
+           family={Chelba},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e5ef6b602efd61232e0ab851ce56b9b}
+      \strng{fullhash}{0e5ef6b602efd61232e0ab851ce56b9b}
+      \strng{bibnamehash}{0e5ef6b602efd61232e0ab851ce56b9b}
+      \strng{authorbibnamehash}{0e5ef6b602efd61232e0ab851ce56b9b}
+      \strng{authornamehash}{0e5ef6b602efd61232e0ab851ce56b9b}
+      \strng{authorfullhash}{0e5ef6b602efd61232e0ab851ce56b9b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2003 IEEE Workshop on Automatic Speech Recognition and Understanding (IEEE Cat. No.03EX721)}
+      \field{month}{11}
+      \field{title}{Is word error rate a good indicator for spoken language understanding accuracy}
+      \field{year}{2003}
+      \field{pages}{577\bibrangedash 582}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/asru.2003.1318504
+      \endverb
+    \endentry
+    \entry{ito_johnson_2017}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=07bd752fb80c03dd316d239e627300ab}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=11627fe2bab5571df55e2996bb2c54ca}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ea0c9a806b6841eb0bb2340466baed1}
+      \strng{fullhash}{5ea0c9a806b6841eb0bb2340466baed1}
+      \strng{bibnamehash}{5ea0c9a806b6841eb0bb2340466baed1}
+      \strng{authorbibnamehash}{5ea0c9a806b6841eb0bb2340466baed1}
+      \strng{authornamehash}{5ea0c9a806b6841eb0bb2340466baed1}
+      \strng{authorfullhash}{5ea0c9a806b6841eb0bb2340466baed1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{The LJ Speech Dataset}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://keithito.com/LJ-Speech-Dataset/
+      \endverb
+      \verb{url}
+      \verb https://keithito.com/LJ-Speech-Dataset/
+      \endverb
+    \endentry
+    \entry{lee_gommers_waselewski_wohlfahrt_oleary_2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=90500ea64411f871989695b14205ee34}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ea0d04d6116f32d9972212ee8291bc0b}{%
+           family={Waselewski},
+           familyi={W\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=cf74ca2831658bbe63d81a29b0c87b35}{%
+           family={Wohlfahrt},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0eeef4d6287032415e11fffe2a516970}{%
+           family={OLeary},
+           familyi={O\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{978c83c0e08d3001dfd3f43039e74db7}
+      \strng{fullhash}{0988b8b665647b2b064486bb98c426b1}
+      \strng{bibnamehash}{0988b8b665647b2b064486bb98c426b1}
+      \strng{authorbibnamehash}{0988b8b665647b2b064486bb98c426b1}
+      \strng{authornamehash}{978c83c0e08d3001dfd3f43039e74db7}
+      \strng{authorfullhash}{0988b8b665647b2b064486bb98c426b1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{month}{4}
+      \field{number}{36}
+      \field{title}{PyWavelets: A Python package for wavelet analysis}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{1237}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.01237
+      \endverb
+    \endentry
+    \entry{graves_fernández_gomez_schmidhuber_2006}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9320fcd79fc9668957f2f8911a5d1890}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6ac505680efa9d3591dd05930a13ccd5}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Faustino},
+           giveni={F\bibinitperiod}}}%
+        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7e97a283df313b266a6050225e738cf}
+      \strng{fullhash}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \strng{bibnamehash}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \strng{authorbibnamehash}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \strng{authornamehash}{e7e97a283df313b266a6050225e738cf}
+      \strng{authorfullhash}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ICML 2006 - Proceedings of the 23rd International Conference on Machine Learning}
+      \field{month}{1}
+      \field{title}{Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks}
+      \field{volume}{2006}
+      \field{year}{2006}
+      \field{pages}{369\bibrangedash 376}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/1143844.1143891
+      \endverb
+    \endentry
+    \entry{scheidl_2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=68fc3c73bc20051f97c02e4814c8f142}{%
+           family={Scheidl},
+           familyi={S\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{68fc3c73bc20051f97c02e4814c8f142}
+      \strng{fullhash}{68fc3c73bc20051f97c02e4814c8f142}
+      \strng{bibnamehash}{68fc3c73bc20051f97c02e4814c8f142}
+      \strng{authorbibnamehash}{68fc3c73bc20051f97c02e4814c8f142}
+      \strng{authornamehash}{68fc3c73bc20051f97c02e4814c8f142}
+      \strng{authorfullhash}{68fc3c73bc20051f97c02e4814c8f142}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{6}
+      \field{title}{An Intuitive Explanation of Connectionist Temporal Classification}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c
+      \endverb
+    \endentry
+    \entry{wasilewski_2008}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=172fbf835a99a099bf1a9f1254a7fe66}{%
+           family={Wasilewski},
+           familyi={W\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{172fbf835a99a099bf1a9f1254a7fe66}
+      \strng{fullhash}{172fbf835a99a099bf1a9f1254a7fe66}
+      \strng{bibnamehash}{172fbf835a99a099bf1a9f1254a7fe66}
+      \strng{authorbibnamehash}{172fbf835a99a099bf1a9f1254a7fe66}
+      \strng{authornamehash}{172fbf835a99a099bf1a9f1254a7fe66}
+      \strng{authorfullhash}{172fbf835a99a099bf1a9f1254a7fe66}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wavelet Properties Browser}
+      \field{title}{Biorthogonal 6.8 Wavelet (bior6.8)}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://wavelets.pybytes.com/wavelet/bior6.8/
+      \endverb
+      \verb{url}
+      \verb https://wavelets.pybytes.com/wavelet/bior6.8/
+      \endverb
+    \endentry
+    \entry{ali_ahmad_zhou_iqbal_ali_2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=708a31285939eb0b0f293763e38642d1}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Hazrat},
+           giveni={H\bibinitperiod}}}%
+        {{hash=18f2a1361c6315d5feab4fc8c0513fcf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Nasir},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3368603e2763253ed32e9ff43c6a086c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xianwei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f0bdc16c613433627ec1e7371b1f00f4}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod}}}%
+        {{hash=05a0507850438994ed76e62ff082dc7b}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Sahibzada\bibnamedelima Muhammad},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{942a5d7116c6e4407786179c8de1d8f6}
+      \strng{fullhash}{87c263a7fd84e0d3f528bbb8b497de01}
+      \strng{bibnamehash}{87c263a7fd84e0d3f528bbb8b497de01}
+      \strng{authorbibnamehash}{87c263a7fd84e0d3f528bbb8b497de01}
+      \strng{authornamehash}{942a5d7116c6e4407786179c8de1d8f6}
+      \strng{authorfullhash}{87c263a7fd84e0d3f528bbb8b497de01}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SpringerPlus}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{DWT features performance analysis for automatic speech recognition of Urdu}
+      \field{volume}{3}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1186/2193-1801-3-204
+      \endverb
+    \endentry
+    \entry{daqrouq_al-qawasmi_al_azzawi_abu_hilal_2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=427bb22be2ea5a9e0c16b34b333066e4}{%
+           family={Daqrouq},
+           familyi={D\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dc696dae8a2c52e450d63df94b24edbd}{%
+           family={Al-Qawasmi},
+           familyi={A\bibinithyphendelim Q\bibinitperiod},
+           given={Abdel-Rahman},
+           giveni={A\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=dd1d788c42dd6e4a887268130f83aee5}{%
+           family={Al\bibnamedelima Azzawi},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Khalooq\bibnamedelima Y},
+           giveni={K\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=124dd7145484812ad85d895311429569}{%
+           family={Abu\bibnamedelima Hilal},
+           familyi={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Turki},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1e87ecb47ff1276db3e01252df8a67a}
+      \strng{fullhash}{779a579d9ab274f5192c808066559ffc}
+      \strng{bibnamehash}{779a579d9ab274f5192c808066559ffc}
+      \strng{authorbibnamehash}{779a579d9ab274f5192c808066559ffc}
+      \strng{authornamehash}{c1e87ecb47ff1276db3e01252df8a67a}
+      \strng{authorfullhash}{779a579d9ab274f5192c808066559ffc}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete Wavelet Transforms - Biomedical Applications}
+      \field{month}{9}
+      \field{title}{Discrete Wavelet Transform &amp; Linear Prediction Coding Based Method for Speech Recognition via Neural Network}
+      \field{year}{2011}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.5772/20978
+      \endverb
+    \endentry
+    \entry{hannun_2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b0b92970ca8a68ab09fa412b36dbf6f3}{%
+           family={Hannun},
+           familyi={H\bibinitperiod},
+           given={Awni},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0b92970ca8a68ab09fa412b36dbf6f3}
+      \strng{fullhash}{b0b92970ca8a68ab09fa412b36dbf6f3}
+      \strng{bibnamehash}{b0b92970ca8a68ab09fa412b36dbf6f3}
+      \strng{authorbibnamehash}{b0b92970ca8a68ab09fa412b36dbf6f3}
+      \strng{authornamehash}{b0b92970ca8a68ab09fa412b36dbf6f3}
+      \strng{authorfullhash}{b0b92970ca8a68ab09fa412b36dbf6f3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Distill}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Sequence modeling with CTC}
+      \field{volume}{2}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.23915/distill.00008
+      \endverb
+    \endentry
+    \entry{lindgren_lind_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=22e48b2741377cda80a6d7bbcfe31358}{%
+           family={Lindgren},
+           familyi={L\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b3f052a95edbf703026f7343a401696e}{%
+           family={Lind},
+           familyi={L\bibinitperiod},
+           given={Gustav},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{84e90763f5bb25387a935466acef32e0}
+      \strng{fullhash}{84e90763f5bb25387a935466acef32e0}
+      \strng{bibnamehash}{84e90763f5bb25387a935466acef32e0}
+      \strng{authorbibnamehash}{84e90763f5bb25387a935466acef32e0}
+      \strng{authornamehash}{84e90763f5bb25387a935466acef32e0}
+      \strng{authorfullhash}{84e90763f5bb25387a935466acef32e0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dissertation}
+      \field{title}{Language Classification Using Neural Networks}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{doi}
+      \verb urn:nbn:se:uu:diva-385537
+      \endverb
+    \endentry
+    \entry{rao_k._e._2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c669222ea48a7f3b7922d17e4c551ec2}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi Sreenivasa},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5f3136a172d984d929acc529e82a5935}{%
+           family={K.\bibnamedelimi E.},
+           familyi={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Manjunath},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{00aeac6cc83cc53506d16b86d34674a2}
+      \strng{fullhash}{00aeac6cc83cc53506d16b86d34674a2}
+      \strng{bibnamehash}{00aeac6cc83cc53506d16b86d34674a2}
+      \strng{authorbibnamehash}{00aeac6cc83cc53506d16b86d34674a2}
+      \strng{authornamehash}{00aeac6cc83cc53506d16b86d34674a2}
+      \strng{authorfullhash}{00aeac6cc83cc53506d16b86d34674a2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SpringerBriefs in Speech Technology}
+      \field{title}{Speech Recognition Using Articulatory and Excitation Source Features}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-319-49220-9
+      \endverb
+    \endentry
+    \entry{wang_deng_pu_huang_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5d6fdc24e2ecd600cb5bd48c875bca3e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yisen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=afa7c42a397b78f90816e3e7cd0673be}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Xuejiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=5a8949df3e3c7985a1269bcadc3e9448}{%
+           family={Pu},
+           familyi={P\bibinitperiod},
+           given={Songbai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6e8d947dd72de23b8500095b595e1e99}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zhiheng},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d92f60ee12bfbde836cb01ccfa44080}
+      \strng{fullhash}{e37d71beddecc031ae91b44af069c7bf}
+      \strng{bibnamehash}{e37d71beddecc031ae91b44af069c7bf}
+      \strng{authorbibnamehash}{e37d71beddecc031ae91b44af069c7bf}
+      \strng{authornamehash}{4d92f60ee12bfbde836cb01ccfa44080}
+      \strng{authorfullhash}{e37d71beddecc031ae91b44af069c7bf}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CoRR}
+      \field{month}{2}
+      \field{title}{Residual Convolutional CTC Networks for Automatic Speech Recognition}
+      \field{volume}{abs/1702.07793}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1702.07793
+      \endverb
+    \endentry
+    \entry{zhang_2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb96d0b531eeac5c6b8b186634522d92}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb96d0b531eeac5c6b8b186634522d92}
+      \strng{fullhash}{eb96d0b531eeac5c6b8b186634522d92}
+      \strng{bibnamehash}{eb96d0b531eeac5c6b8b186634522d92}
+      \strng{authorbibnamehash}{eb96d0b531eeac5c6b8b186634522d92}
+      \strng{authornamehash}{eb96d0b531eeac5c6b8b186634522d92}
+      \strng{authorfullhash}{eb96d0b531eeac5c6b8b186634522d92}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Intelligence and Neuroscience}
+      \field{month}{1}
+      \field{title}{English Speech Recognition System Model Based on Computer-Aided Function and Neural Network Algorithm}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1155/2022/7846877
+      \endverb
+    \endentry
+    \entry{biswal_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8fab2af9e88ecfde4086eec861d53ddc}{%
+           family={Biswal},
+           familyi={B\bibinitperiod},
+           given={Avijeet},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Simplilearn}%
+      }
+      \strng{namehash}{8fab2af9e88ecfde4086eec861d53ddc}
+      \strng{fullhash}{8fab2af9e88ecfde4086eec861d53ddc}
+      \strng{bibnamehash}{8fab2af9e88ecfde4086eec861d53ddc}
+      \strng{authorbibnamehash}{8fab2af9e88ecfde4086eec861d53ddc}
+      \strng{authornamehash}{8fab2af9e88ecfde4086eec861d53ddc}
+      \strng{authorfullhash}{8fab2af9e88ecfde4086eec861d53ddc}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Simplilearn.com}
+      \field{month}{11}
+      \field{title}{Recurrent neural network (RNN) tutorial: Types and examples [updated]: Simplilearn}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.simplilearn.com/tutorials/deep-learning-tutorial/rnn
+      \endverb
+      \verb{url}
+      \verb https://www.simplilearn.com/tutorials/deep-learning-tutorial/rnn
+      \endverb
+    \endentry
+    \entry{mlearnere_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a272268722fb5e80eef456c1ee93ea81}{%
+           family={Mlearnere},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{a272268722fb5e80eef456c1ee93ea81}
+      \strng{fullhash}{a272268722fb5e80eef456c1ee93ea81}
+      \strng{bibnamehash}{a272268722fb5e80eef456c1ee93ea81}
+      \strng{authorbibnamehash}{a272268722fb5e80eef456c1ee93ea81}
+      \strng{authornamehash}{a272268722fb5e80eef456c1ee93ea81}
+      \strng{authorfullhash}{a272268722fb5e80eef456c1ee93ea81}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{4}
+      \field{title}{Learning from audio: The Mel Scale, Mel Spectrograms, and Mel Frequency Cepstral coefficients}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/learning-from-audio-the-mel-scale-mel-spectrograms-and-mel-frequency-cepstral-coefficients-f5752b6324a8
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/learning-from-audio-the-mel-scale-mel-spectrograms-and-mel-frequency-cepstral-coefficients-f5752b6324a8
+      \endverb
+    \endentry
+    \entry{ramakrishnan_2021_16}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ce9fd1f37c3d5d7debf4077bbd38d936}{%
+           family={Ramakrishnan},
+           familyi={R\bibinitperiod},
+           given={Bhiksha},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {YouTube}%
+      }
+      \strng{namehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{fullhash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{bibnamehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{authorbibnamehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{authornamehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{authorfullhash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{YouTube}
+      \field{month}{5}
+      \field{title}{Lecture 16: Connectionist Temporal Classification, sequence prediction}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=RowViowx1Bg
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=RowViowx1Bg
+      \endverb
+    \endentry
+    \entry{ramakrishnan_2021_17}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ce9fd1f37c3d5d7debf4077bbd38d936}{%
+           family={Ramakrishnan},
+           familyi={R\bibinitperiod},
+           given={Bhiksha},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {YouTube}%
+      }
+      \strng{namehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{fullhash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{bibnamehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{authorbibnamehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{authornamehash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \strng{authorfullhash}{ce9fd1f37c3d5d7debf4077bbd38d936}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{YouTube}
+      \field{month}{4}
+      \field{title}{Lecture 17: Connectionist Temporal Classification (CTC), sequence to sequence prediction}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=5Rj0J9AuGw0
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=5Rj0J9AuGw0
+      \endverb
+    \endentry
+    \entry{taspinar_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cfde99e2b82061ceea58d454878e479b}{%
+           family={Taspinar},
+           familyi={T\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfde99e2b82061ceea58d454878e479b}
+      \strng{fullhash}{cfde99e2b82061ceea58d454878e479b}
+      \strng{bibnamehash}{cfde99e2b82061ceea58d454878e479b}
+      \strng{authorbibnamehash}{cfde99e2b82061ceea58d454878e479b}
+      \strng{authornamehash}{cfde99e2b82061ceea58d454878e479b}
+      \strng{authorfullhash}{cfde99e2b82061ceea58d454878e479b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ML Fundamentals}
+      \field{month}{8}
+      \field{title}{A guide for using the Wavelet Transform in Machine Learning}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/
+      \endverb
+      \verb{url}
+      \verb https://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

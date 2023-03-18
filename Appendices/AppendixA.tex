@@ -1,9 +1,101 @@
 % Appendix A
 
-\chapter{Appendix A} % Main appendix title
+\chapter{Appendix A - Epoch Loss} % Main appendix title
 
 \label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
 
-\section{Source Code}
+\begin{table}[!ht]
+    \centering
+    \caption{Spectrogram Epoch Loss}
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+        \textbf{} & \textbf{Epoch} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\ \hline
+        \textbf{Training Loss} & Train\_T1 & 296.7976685 & 194.3861389 & 134.335434 & 107.0815659 & 91.11164093 \\ \hline
+        \textbf{} & Train\_T2 & 298.5567017 & 196.0717926 & 135.2273865 & 107.8201065 & 91.3082962 \\ \hline
+        \textbf{} & Train\_T3 & 291.9888611 & 187.9899597 & 132.1474152 & 106.3984909 & 90.31215668 \\ \hline
+        \textbf{} & Av. Loss & 295.7810771 & 192.8159637 & 133.9034119 & 107.1000544 & 90.91069794 \\ \hline
+        \textbf{Validation Loss} & Valid\_T1 & 274.4621887 & 158.631134 & 114.7272415 & 96.96182251 & 90.11564636 \\ \hline
+        \textbf{} & Valid\_T2 & 255.4617767 & 155.3216095 & 114.933876 & 97.87284088 & 87.8312149 \\ \hline
+        \textbf{} & Valid\_T3 & 264.06427 & 148.2462921 & 117.7789459 & 103.6573257 & 86.51172638 \\ \hline
+        \textbf{} & Av. Loss & 264.6627452 & 154.0663452 & 115.8133545 & 99.49732971 & 88.15286255 \\ \hline
+        \textbf{Word Error Rate} & Wer\_T1 & 1 & 0.8822 & 0.7558 & 0.6687 & 0.6146 \\ \hline
+        \textbf{} & Wer\_T2 & 1 & 0.8856 & 0.7573 & 0.6923 & 0.6345 \\ \hline
+        \textbf{} & Wer\_T3 & 1 & 0.8564 & 0.7599 & 0.695 & 0.6394 \\ \hline
+        \textbf{} & Av. WER & 1 & 0.8747333333 & 0.7576666667 & 0.6853333333 & 0.6295 \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    \label{spectro_epochloss}
+\end{table}
 
-The source code will be uploaded to a public GitHub repository associated to the profile "FinityFly"
+\begin{table}[!ht]
+    \centering
+    \caption{Mel Spectrogram Epoch Loss}
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+        \textbf{} & \textbf{Epoch} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\ \hline
+        \textbf{Training Loss} & Train\_T1 & 298.1916504 & 190.3350525 & 131.6872101 & 105.2731323 & 89.91330719 \\ \hline
+        \textbf{} & Train\_T2 & 295.0480347 & 185.1468048 & 130.2666931 & 104.3753891 & 89.07975006 \\ \hline
+        \textbf{} & Train\_T3 & 297.911764 & 187.3469113 & 130.8143732 & 104.652378 & 89.20348672 \\ \hline
+        \textbf{} & Av. Loss & 297.050483 & 187.6095895 & 130.9227588 & 104.7669665 & 89.39884799 \\ \hline
+        \textbf{Validation Loss} & Valid\_T1 & 258.2694092 & 153.4085236 & 107.2570343 & 93.50734711 & 84.25429535 \\ \hline
+        \textbf{} & Valid\_T2 & 247.0012207 & 155.9919586 & 111.6265259 & 97.62954712 & 84.40084839 \\ \hline
+        \textbf{} & Valid\_T3 & 253.1349877 & 154.7935403 & 109.5709144 & 95.81934759 & 84.61218773 \\ \hline
+        \textbf{} & Av. Loss & 252.8018725 & 154.7313408 & 109.4848249 & 95.65208061 & 84.42244382 \\ \hline
+        \textbf{Word Error Rate} & Wer\_T1 & 1 & 0.8617 & 0.7508 & 0.6785 & 0.6248 \\ \hline
+        \textbf{} & Wer\_T2 & 0.9999 & 0.8685 & 0.7508 & 0.6804 & 0.6254 \\ \hline
+        \textbf{} & Wer\_T3 & 1 & 0.8777 & 0.7478 & 0.6752 & 0.6176 \\ \hline
+        \textbf{} & Av. WER & 0.9999666667 & 0.8693 & 0.7498 & 0.6780333333 & 0.6226 \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    \label{melspectro_epochloss}
+\end{table}
+
+\begin{table}[!ht]
+    \centering
+    \caption{MFCC Epoch Loss}
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+        \textbf{} & \textbf{Epoch} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\ \hline
+        \textbf{Training Loss} & Train\_T1 & 312.3415527 & 220.6151123 & 147.9094543 & 118.0336456 & 100.1157913 \\ \hline
+        \textbf{} & Train\_T2 & 308.6204834 & 212.7577515 & 147.4524078 & 118.8214722 & 100.6679077 \\ \hline
+        \textbf{} & Train\_T3 & 308.2146301 & 212.3941498 & 147.0379944 & 117.6222458 & 99.95289612 \\ \hline
+        \textbf{} & Av. Loss & 309.7255554 & 215.2556712 & 147.4666189 & 118.1591212 & 100.2455317 \\ \hline
+        \textbf{Validation Loss} & Valid\_T1 & 283.334259 & 164.7569122 & 118.3945618 & 96.96144104 & 84.69897461 \\ \hline
+        \textbf{} & Valid\_T2 & 274.635437 & 166.2772675 & 117.0184784 & 97.25863647 & 83.58209991 \\ \hline
+        \textbf{} & Valid\_T3 & 275.5388794 & 163.729599 & 120.2116318 & 96.44332886 & 83.41139984 \\ \hline
+        \textbf{} & Av. Loss & 277.8361918 & 164.9212596 & 118.5415573 & 96.88780212 & 83.89749146 \\ \hline
+        \textbf{Word Error Rate} & Wer\_T1 & 1 & 0.909 & 0.7945 & 0.7097 & 0.6487 \\ \hline
+        \textbf{} & Wer\_T2 & 1 & 0.9042 & 0.7952 & 0.7152 & 0.641 \\ \hline
+        \textbf{} & Wer\_T3 & 1 & 0.9046 & 0.7973 & 0.7005 & 0.638 \\ \hline
+        \textbf{} & Av. WER & 1 & 0.9059333333 & 0.7956666667 & 0.7084666667 & 0.6425666667 \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    \label{mfcc_epochloss}
+\end{table}
+
+\begin{table}[!ht]
+    \centering
+    \caption{DWT Epoch Loss}
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+        \textbf{} & \textbf{Epoch} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\ \hline
+        \textbf{Training Loss} & Train\_T1 & 317.0186768 & 228.4565277 & 168.7938538 & 137.921936 & 119.5729599 \\ \hline
+        \textbf{} & Train\_T2 & 334.7597046 & 233.082016 & 170.1693726 & 138.6927338 & 122.6289673 \\ \hline
+        \textbf{} & Train\_T3 & 323.619873 & 212.8789063 & 159.9281158 & 136.3984909 & 120.3121567 \\ \hline
+        \textbf{} & Av. Loss & 325.1327515 & 224.8058167 & 166.2971141 & 137.6710536 & 120.838028 \\ \hline
+        \textbf{Validation Loss} & Valid\_T1 & 319.665802 & 194.9621735 & 135.9151306 & 113.6958008 & 102.68367 \\ \hline
+        \textbf{} & Valid\_T2 & 328.6252441 & 228.4376373 & 153.9455414 & 127.7307587 & 109.6193008 \\ \hline
+        \textbf{} & Valid\_T3 & 299.0671387 & 189.2872314 & 124.4108429 & 98.65732574 & 86.51172638 \\ \hline
+        \textbf{} & Av. Loss & 315.7860616 & 204.2290141 & 138.090505 & 113.3612951 & 99.60489909 \\ \hline
+        \textbf{Word Error Rate} & Wer\_T1 & 1 & 0.9568 & 0.8648 & 0.8053 & 0.7552 \\ \hline
+        \textbf{} & Wer\_T2 & 1 & 0.9554 & 0.8449 & 0.7857 & 0.7391 \\ \hline
+        \textbf{} & Wer\_T3 & 1 & 0.9238 & 0.8486 & 0.7846 & 0.7301 \\ \hline
+        \textbf{} & Av. WER & 1 & 0.9453333333 & 0.8527666667 & 0.7918666667 & 0.7414666667 \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    \label{dwt_epochloss}
+\end{table}
